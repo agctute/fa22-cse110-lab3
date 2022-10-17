@@ -21,6 +21,37 @@ header{
     border: 1px solid black;
     max-height: 50vh;
 }
+@media (min-width: 1600){
+    .attendance {
+        padding: 1vh 1vh 1vh 1vh;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        text-align: center;
+        background-color: lightgray;
+        border-radius: 20px;
+        padding-top: 3px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 3px;
+        display: inline-block;
+        vertical-align: top;
+        height: 450px;
+        width: 200px
+    }
+
+    #agenda {
+        display: inline-block;
+        text-align: left;
+        background-color: lightgray;
+        border-radius: 20px;
+        padding: 3px 30px 3px 30px;
+        border: 1px solid black;
+        height: 450px;
+        width: 60vh;
+        max-width: 600px;
+    }
+}
 
 .attendance {
     padding: 1vh 1vh 1vh 1vh;
@@ -34,24 +65,36 @@ header{
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 3px;
-    display: inline-block;
-    vertical-align: top;
-    height: 450px;
-    width: 200px
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 10;
 }
 
 #agenda {
-    display: inline-block;
     text-align: left;
     background-color: lightgray;
     border-radius: 20px;
     padding: 3px 30px 3px 30px;
     border: 1px solid black;
-    height: 450px;
-    width: 60vh;
-    max-width: 600px;
+    grid-column-start: 3;
+    grid-column-end: 18;
+    grid-row-start: 1;
+    grid-row-end: 10;
+}
+    
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(10, 50px);
+
 }
 
+.diagrams {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
 section+h2 {
     text-align:center;
 }
