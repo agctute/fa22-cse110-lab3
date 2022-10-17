@@ -30,6 +30,7 @@ header{
     padding: 3px;
     border: 1px solid black;
     max-height: 50vh;
+    position: static;
 }
 @media (min-width: 1600){
     .attendance {
@@ -138,4 +139,5 @@ footer, summary {
 
 h1~h3 {
     text-decoration: underline;
+    position: inherit;
 }
