@@ -4,6 +4,10 @@
     font-size: 16px;
 }
 
+* {
+    margin: 1px;
+}
+
 @font-face {
   font-family: "nabla";
   src: url("Nabla-Regular.ttf");
@@ -92,6 +96,15 @@ header{
 .diagrams > h2 {
     font-family: nabla;
 }
+
+[font-family=nabla] {
+    font-size:1.6em;
+}
+
+.diagrams>h2:hover {
+    text-decoration:underline;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(12, 100px);
@@ -119,8 +132,10 @@ h1 {
     font-size: 1.618em;
 }
 
-footer {
+footer, summary {
     display: none;
 }
 
-
+h1~h3 {
+    text-decoration: underline;
+}
