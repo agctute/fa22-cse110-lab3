@@ -3,6 +3,12 @@
 .html { 
     font-size: 16px;
 }
+
+@font-face {
+  font-family: "nabla";
+  src: url("Nabla-Regular.ttf");
+}
+
 body {
     background-color: grey;
     margin-left: 1in;
@@ -82,7 +88,10 @@ header{
     grid-row-start: 1;
     grid-row-end: 10;
 }
-    
+
+.diagrams > h2 {
+    font-family: nabla;
+}
 .grid {
     display: grid;
     grid-template-columns: repeat(12, 100px);
