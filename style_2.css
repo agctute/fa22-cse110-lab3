@@ -3,25 +3,52 @@
 .html { 
     font-size: 16px;
 }
-.body {
+body {
     background-color: grey;
-    margin-left: 3in;
-    margin-right: 7.62cm;
+    margin-left: 1in;
+    margin-right: 2.54cm;
     margin-bottom: 2vh;
 }
 
-.header{
+header{
     font-size: 1.618rem;
     text-align: center;
-    color: #001440
+    color: #001440;
+    margin: 5vh 5% 5vh 5%;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 3px;
+    border: 1px solid black;
 }
 
-.h3 {
-    font-size: 1.6em;
+.attendance {
+    padding: 1vh 1vh 1vh 1vh;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
 }
 
-.h1 {
-    font-size: 1.618em
+#agenda {
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 3px 3px 3px 3px;
+    border: 1px solid black;
+}
+
+h3 {
+    font-size: 0.8em;
+}
+
+h1 {
+    font-size: 1.618em;
 }
 
 
