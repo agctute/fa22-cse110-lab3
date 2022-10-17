@@ -39,7 +39,9 @@ header{
     height: 450px;
     width: 200px
 }
-
+main {
+    display: grid;
+}
 #agenda {
     display: inline-block;
     text-align: left;
@@ -52,6 +54,11 @@ header{
     max-width: 600px;
 }
 
+.diagrams {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
 section+h2 {
     text-align:center;
 }
