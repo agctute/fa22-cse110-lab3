@@ -46,6 +46,9 @@ header{
     border: 1px solid black;
 }
 
+li.redacted {
+    text-decoration: line-through;
+}
 h3 {
     font-size: 0.8em;
 
@@ -55,5 +58,8 @@ h1 {
     font-size: 1.618em;
 }
 
+footer {
+    display: none;
+}
 
 
