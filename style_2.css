@@ -35,23 +35,31 @@ header{
     padding-bottom: 3px;
     display: inline-block;
     vertical-align: top;
+    height: 450px;
+    width: 200px
 }
 
 #agenda {
     display: inline-block;
-    text-align: center;
+    text-align: left;
     background-color: lightgray;
     border-radius: 20px;
     padding: 3px 30px 3px 30px;
     border: 1px solid black;
+    height: 450px;
+    width: 60vh;
+    max-width: 600px;
 }
 
+section+h2 {
+    text-align:center;
+}
+
+section h3 {
+    font-size: 1.3em;
+}
 li.redacted {
     text-decoration: line-through;
-}
-h3 {
-    font-size: 0.8em;
-
 }
 
 h1 {
