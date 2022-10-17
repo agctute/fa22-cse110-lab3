@@ -30,21 +30,25 @@ header{
     background-color: lightgray;
     border-radius: 20px;
     padding-top: 3px;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 3px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #agenda {
+    display: inline-block;
     text-align: center;
     background-color: lightgray;
     border-radius: 20px;
-    padding: 3px 3px 3px 3px;
+    padding: 3px 30px 3px 30px;
     border: 1px solid black;
 }
 
 h3 {
     font-size: 0.8em;
+
 }
 
 h1 {
